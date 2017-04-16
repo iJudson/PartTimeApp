@@ -1,0 +1,6 @@
+pod 'BmobSDK'
+pod 'AFNetworking'
+pod 'Masonry'
+pod 'MBProgressHUD'
+pod 'SDWebImage'
+pod 'YYModel'

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="gray" indentationWidth="10" reuseIdentifier="LPDGBLastCell" rowHeight="44" id="eoW-v9-XyN" customClass="LPDGBLastCell">
+            <rect key="frame" x="0.0" y="0.0" width="335" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eoW-v9-XyN" id="Y3g-69-nbO">
+                <rect key="frame" x="0.0" y="0.0" width="335" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_halfwritebottom_2x" highlightedImage="cellSelectedImage" translatesAutoresizingMaskIntoConstraints="NO" id="jti-4c-1Gb">
+                        <rect key="frame" x="6" y="0.0" width="323" height="43.5"/>
+                        <animations/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bulb" translatesAutoresizingMaskIntoConstraints="NO" id="qYh-Hj-tXO">
+                        <rect key="frame" x="20" y="0.0" width="44" height="44"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="1k9-KQ-yOJ"/>
+                            <constraint firstAttribute="width" constant="44" id="lx3-76-Om4"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="批量招聘中，这样的感觉很萌萌哒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QIH-D8-tO2">
+                        <rect key="frame" x="64" y="0.0" width="271" height="41.5"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="QIH-D8-tO2" secondAttribute="trailing" id="21q-Ax-ikW"/>
+                    <constraint firstAttribute="bottom" secondItem="jti-4c-1Gb" secondAttribute="bottom" id="CMu-te-rVg"/>
+                    <constraint firstItem="jti-4c-1Gb" firstAttribute="top" secondItem="Y3g-69-nbO" secondAttribute="top" id="Cum-HC-uMM"/>
+                    <constraint firstItem="QIH-D8-tO2" firstAttribute="top" secondItem="Y3g-69-nbO" secondAttribute="top" id="Duy-1j-Wph"/>
+                    <constraint firstItem="qYh-Hj-tXO" firstAttribute="top" secondItem="Y3g-69-nbO" secondAttribute="top" id="OSr-Nv-tay"/>
+                    <constraint firstItem="jti-4c-1Gb" firstAttribute="leading" secondItem="Y3g-69-nbO" secondAttribute="leading" constant="6" id="PPB-dD-zj5"/>
+                    <constraint firstAttribute="bottom" secondItem="QIH-D8-tO2" secondAttribute="bottom" constant="2" id="XUQ-Ue-U2i"/>
+                    <constraint firstAttribute="trailing" secondItem="jti-4c-1Gb" secondAttribute="trailing" constant="6" id="eAW-O1-f2o"/>
+                    <constraint firstItem="qYh-Hj-tXO" firstAttribute="leading" secondItem="Y3g-69-nbO" secondAttribute="leading" constant="20" id="fxl-y7-PkT"/>
+                    <constraint firstItem="QIH-D8-tO2" firstAttribute="leading" secondItem="qYh-Hj-tXO" secondAttribute="trailing" id="fzg-DT-8zo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <point key="canvasLocation" x="830.5" y="257"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bg_halfwritebottom_2x" width="14" height="5"/>
+        <image name="bulb" width="24" height="24"/>
+        <image name="cellSelectedImage" width="60" height="83"/>
+    </resources>
+</document>

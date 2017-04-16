@@ -1,0 +1,8 @@
+pod 'SVProgressHUD'
+pod 'BmobSDK'
+platform :ios, '8.0'
+pod 'AFNetworking'
+pod 'YYModel'
+pod 'MBProgressHUD'
+pod 'SDWebImage'
+pod 'Masonry'

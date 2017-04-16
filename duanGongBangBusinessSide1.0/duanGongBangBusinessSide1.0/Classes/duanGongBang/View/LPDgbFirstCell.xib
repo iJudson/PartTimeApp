@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LPDgbFirstCell" rowHeight="280" id="rD3-lM-F4r" customClass="LPDgbFirstCell">
+            <rect key="frame" x="0.0" y="0.0" width="391" height="133"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rD3-lM-F4r" id="RUg-Nh-liA">
+                <rect key="frame" x="0.0" y="0.0" width="391" height="132"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bg_halfwrite_2x" translatesAutoresizingMaskIntoConstraints="NO" id="wEc-Lh-qJ4">
+                        <rect key="frame" x="6" y="4" width="379" height="129"/>
+                        <animations/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Xf-sv-W3h">
+                        <rect key="frame" x="56" y="4" width="280" height="95"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="280" id="Xcg-DZ-7CJ"/>
+                            <constraint firstAttribute="height" constant="95" id="pBI-1D-46b"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                        <state key="normal" title="批量招聘服务" backgroundImage="orangeBtn">
+                            <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="wEc-Lh-qJ4" firstAttribute="top" secondItem="RUg-Nh-liA" secondAttribute="top" constant="4" id="N6t-PN-xEB"/>
+                    <constraint firstAttribute="trailing" secondItem="wEc-Lh-qJ4" secondAttribute="trailing" constant="6" id="PEF-e1-tzf"/>
+                    <constraint firstItem="4Xf-sv-W3h" firstAttribute="top" secondItem="RUg-Nh-liA" secondAttribute="top" id="UXL-zb-DmN"/>
+                    <constraint firstItem="wEc-Lh-qJ4" firstAttribute="leading" secondItem="RUg-Nh-liA" secondAttribute="leading" constant="6" id="iNX-fW-5KV"/>
+                    <constraint firstItem="4Xf-sv-W3h" firstAttribute="top" secondItem="wEc-Lh-qJ4" secondAttribute="top" id="lfv-fi-MxP"/>
+                    <constraint firstAttribute="bottom" secondItem="wEc-Lh-qJ4" secondAttribute="bottom" id="pQY-Is-0eD"/>
+                    <constraint firstItem="4Xf-sv-W3h" firstAttribute="centerX" secondItem="wEc-Lh-qJ4" secondAttribute="centerX" id="rhY-Fb-kwN"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="UXL-zb-DmN"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="bgImageView" destination="wEc-Lh-qJ4" id="JPG-Ry-H6o"/>
+            </connections>
+            <point key="canvasLocation" x="640.5" y="-769.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bg_halfwrite_2x" width="14" height="5"/>
+        <image name="orangeBtn" width="260" height="90"/>
+    </resources>
+</document>

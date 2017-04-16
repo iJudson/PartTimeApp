@@ -1,0 +1,123 @@
+//
+//  GlobalPrefixHeader.pch
+//  duanGongBangBusinessSide1.0
+//
+//  Created by Judson on 16/3/15.
+//  Copyright © 2016年 lingpin. All rights reserved.
+//
+
+#ifndef GlobalPrefixHeader_pch
+#define GlobalPrefixHeader_pch
+
+#define LPScreenSize [UIScreen mainScreen].bounds.size
+
+#define LPCarouselHeight 250
+
+#define LPCarouselSectionCount 1000
+
+#import "Masonry.h"
+#import "UIView+IJExtension.h"
+
+#define kBmobSDKKey @"3e1f442812a76ac157cace5df33754ee"//V3版数据接口
+
+#define tabBarheight self.tabBarController.tabBar.IJ_height
+#define titleViewheight 40
+
+#define LPNavBarHeight 64
+
+//网络URL
+#define LPBaseUrl [NSURL URLWithString:@"http://c.m.163.com/nc/"]
+
+#ifdef DEBUG
+#define LPLog(...) NSLog(__VA_ARGS__)
+#else
+#define LPLog(...)
+#endif
+
+#define LPLogFunc LPLog(@"%s", __func__)
+
+#define LPRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define LPGlobalBg LPRGBColor(223, 223, 223)
+
+//测试颜色
+#define LPColor [UIColor yellowColor]
+
+
+#endif 
+
+#define Width [UIScreen mainScreen].bounds.size.width
+#define Height [UIScreen mainScreen].bounds.size.height
+//#define kFontName @"NotoSansHans-DemiLight"
+
+
+
+#ifdef DEBUG
+#define LOG(...) NSLog(__VA_ARGS__)
+#define LOG_METHOD NSLog(@"%s", __func__)
+#else
+#define LOG(...)
+#define LOG_METHOD
+#endif
+
+
+
+//判断设备类型
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_RETINA ([[UIScreen mainScreen] scale] >= 2.0)
+
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+#define SCREEN_MAX_LENGTH (MAX(SCREEN_WIDTH, SCREEN_HEIGHT))
+#define SCREEN_MIN_LENGTH (MIN(SCREEN_WIDTH, SCREEN_HEIGHT))
+
+
+#define IS_IPHONE_4_OR_LESS (IS_IPHONE && SCREEN_MAX_LENGTH < 568.0)
+#define IS_IPHONE_5 (IS_IPHONE && SCREEN_MAX_LENGTH == 568.0)
+#define IS_IPHONE_6 (IS_IPHONE && SCREEN_MAX_LENGTH == 667.0)
+#define IS_IPHONE_6P (IS_IPHONE && SCREEN_MAX_LENGTH > 667.0)
+
+
+//主接口
+#define M_V4_Personal_C @"V4_Personal_C"
+#define M_V4_Account @"V4_Account"
+#define M_V4_MainPage_C @"V4_MainPage_C"
+
+#define kDataErrorWarning @"数据异常"
+#define kNetworkWarning @"请求超时,请检查网络连接"
+
+//接口参数
+#define M_Type @"Type"
+#define M_CompanyUserObjectId @"CompanyUserObjectId"//用户的objectid
+#define M_AddCertification @"AddCertification"//接口识别参数
+#define M_CertificationType @"CertificationType"//组织性质
+#define M_OrganizationName @"OrganizationName"//组织名称
+#define M_IndustryType @"IndustryType"//行业
+#define M_Phone @"Phone"//联系方式
+#define M_CodeNum @"CodeNum"//规模
+#define M_ImgArray @"ImgArray"//图片全部封装成数组于此
+#define M_Email @"Email"
+#define M_UpdateCompanyInfo @"UpdateCompanyInfo"//商家信息修改Type
+#define M_Nickname @"Nickname"//发布方
+#define M_Address @"Address"//发布方
+#define M_Name @"Name"//发布方
+#define M_Intro @"Intro"//发布方
+#define M_UpdateUserHeadImg @"UpdateUserHeadImg"//发布方
+#define M_HeadImgURL @"HeadImgURL"//发布方
+#define M_UserObjectId @"UserObjectId"//发布方
+#define M_AreaObjetId @"AreaObjetId"//发布方
+#define M_FromCityObjetId @"FromCityObjetId"//发布方
+#define M_GetResources @"GetResources"//发布方
+#define M_CityObjectId @"CityObjectId"//发布方
+#define M_PersonalCertification @"PersonalCertification"//发布方
+#define M_TeamCertification @"TeamCertification"//发布方
+#define M_CompanyCertification @"CompanyCertification"//发布方
+#define M_NonprofitCertification @"NonprofitCertification"//发布方
+#define M_Static @"Static"//发布方
+#define M_CompanySignUp @"CompanySignUp"//发布方
+#define M_ios @"ios"//发布方
+#define M_DeviceType @"DeviceType"//发布方
+#define M_DeviceId @"DeviceId"//发布方
+
+

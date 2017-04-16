@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LPCompanyHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="322" height="204"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="广州领聘科技有限公司" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1SO-Oh-10M">
+                    <rect key="frame" x="86" y="175" width="150" height="15"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="Jmb-hv-WjW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="headerView" translatesAutoresizingMaskIntoConstraints="NO" id="ify-Yz-d1A">
+                    <rect key="frame" x="66" y="175" width="15" height="15"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="3XK-rZ-CFR"/>
+                        <constraint firstAttribute="width" constant="15" id="Lc7-LH-Yat"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yk5-Fq-YKh">
+                    <rect key="frame" x="98" y="38" width="125" height="125"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="125" id="PBV-t5-FQh"/>
+                        <constraint firstAttribute="height" constant="125" id="idv-u1-Q8G"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="headerView" translatesAutoresizingMaskIntoConstraints="NO" id="7rS-VJ-Ktu">
+                    <rect key="frame" x="105" y="45" width="111" height="111"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="111" id="ILH-o4-gqy"/>
+                        <constraint firstAttribute="width" constant="111" id="n4f-O5-Gly"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HF3-bJ-RyL">
+                    <rect key="frame" x="43.5" y="5" width="235" height="28"/>
+                    <subviews>
+                        <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="er8-aV-r9W">
+                            <rect key="frame" x="0.0" y="0.0" width="235" height="28"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <inset key="titleEdgeInsets" minX="-58" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="认证商家拥有审核优先等特权" backgroundImage="authenticationBG">
+                                <color key="titleShadowColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="makeAuthor:" destination="iN0-l3-epB" eventType="touchUpInside" id="hoa-cw-H2u"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ix-Y4-rv2">
+                            <rect key="frame" x="174" y="0.0" width="61" height="28"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="61" id="QrZ-Ye-5Qr"/>
+                            </constraints>
+                            <state key="normal" title="去认证" backgroundImage="authenticationBGButton">
+                                <color key="titleShadowColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="makeAuthor:" destination="iN0-l3-epB" eventType="touchUpInside" id="Puc-XB-XGX"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="1ix-Y4-rv2" firstAttribute="top" secondItem="HF3-bJ-RyL" secondAttribute="top" id="Cgx-F7-vAk"/>
+                        <constraint firstAttribute="height" constant="28" id="JKU-4c-wsF"/>
+                        <constraint firstAttribute="width" constant="235" id="M3C-2w-Mhj"/>
+                        <constraint firstItem="er8-aV-r9W" firstAttribute="leading" secondItem="HF3-bJ-RyL" secondAttribute="leading" id="PF6-V3-GHN"/>
+                        <constraint firstAttribute="trailing" secondItem="1ix-Y4-rv2" secondAttribute="trailing" id="SHf-CO-3E2"/>
+                        <constraint firstAttribute="bottom" secondItem="1ix-Y4-rv2" secondAttribute="bottom" id="b2V-XT-IBP"/>
+                        <constraint firstAttribute="trailing" secondItem="er8-aV-r9W" secondAttribute="trailing" id="dXU-nK-pjh"/>
+                        <constraint firstItem="er8-aV-r9W" firstAttribute="top" secondItem="HF3-bJ-RyL" secondAttribute="top" id="op5-uA-VJe"/>
+                        <constraint firstAttribute="bottom" secondItem="er8-aV-r9W" secondAttribute="bottom" id="y17-Or-Nc8"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="1SO-Oh-10M" firstAttribute="leading" secondItem="ify-Yz-d1A" secondAttribute="trailing" constant="5" id="5Tk-BB-l3l"/>
+                <constraint firstItem="7rS-VJ-Ktu" firstAttribute="centerX" secondItem="yk5-Fq-YKh" secondAttribute="centerX" id="7mB-B6-RRd"/>
+                <constraint firstItem="ify-Yz-d1A" firstAttribute="top" secondItem="1SO-Oh-10M" secondAttribute="top" id="9gV-zV-7mB"/>
+                <constraint firstItem="1SO-Oh-10M" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="9ym-4o-x2d"/>
+                <constraint firstItem="ify-Yz-d1A" firstAttribute="bottom" secondItem="1SO-Oh-10M" secondAttribute="bottom" id="B5D-aU-xbu"/>
+                <constraint firstItem="1SO-Oh-10M" firstAttribute="top" secondItem="yk5-Fq-YKh" secondAttribute="bottom" constant="12" id="O4R-g5-wNk"/>
+                <constraint firstItem="yk5-Fq-YKh" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Qq8-3Y-GsW"/>
+                <constraint firstItem="HF3-bJ-RyL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="TwB-2a-n9p"/>
+                <constraint firstItem="yk5-Fq-YKh" firstAttribute="top" secondItem="HF3-bJ-RyL" secondAttribute="bottom" constant="5" id="alj-vU-Vrh"/>
+                <constraint firstItem="7rS-VJ-Ktu" firstAttribute="centerY" secondItem="yk5-Fq-YKh" secondAttribute="centerY" id="lpu-Yq-SRT"/>
+                <constraint firstItem="HF3-bJ-RyL" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="p5f-yD-DE9"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="authorImageView" destination="ify-Yz-d1A" id="DLF-U9-Bf2"/>
+                <outlet property="circleImageView" destination="yk5-Fq-YKh" id="FfW-wc-tWo"/>
+                <outlet property="headerView" destination="7rS-VJ-Ktu" id="Tff-s6-Prl"/>
+            </connections>
+            <point key="canvasLocation" x="376" y="212"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="authenticationBG" width="32" height="27"/>
+        <image name="authenticationBGButton" width="20" height="27"/>
+        <image name="headerView" width="300" height="300"/>
+    </resources>
+</document>

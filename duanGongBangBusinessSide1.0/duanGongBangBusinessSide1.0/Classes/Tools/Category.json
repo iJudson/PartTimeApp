@@ -1,0 +1,374 @@
+{
+    "Static": "success",
+    "Value": "没有传入数据",
+    "Classify": [
+                 {
+                 "ClassifyName": "V3",
+                 "objectId": "",
+                 "Classifies": [
+                                {
+                                "ClassifyName": "不限",
+                                "objectId": "3IMVxLLT"
+                                },
+                                {
+                                "ClassifyName": "派单",
+                                "objectId": "DQFtYSSn"
+                                },
+                                {
+                                "ClassifyName": "推广",
+                                "objectId": "bhdsiFFM"
+                                },
+                                {
+                                "ClassifyName": "促销",
+                                "objectId": "UBFcG22x"
+                                },
+                                {
+                                "ClassifyName": "服务员",
+                                "objectId": "L6IngUUi"
+                                },
+                                {
+                                "ClassifyName": "客服",
+                                "objectId": "hFL7433j"
+                                },
+                                {
+                                "ClassifyName": "家教",
+                                "objectId": "txSmRBBD"
+                                },
+                                {
+                                "ClassifyName": "销售",
+                                "objectId": "yhMftFFG"
+                                },
+                                {
+                                "ClassifyName": "礼仪",
+                                "objectId": "6JSJ688H"
+                                },
+                                {
+                                "ClassifyName": "模特",
+                                "objectId": "YwkNL112"
+                                },
+                                {
+                                "ClassifyName": "实习岗",
+                                "objectId": "Qzf0s44C"
+                                },
+                                {
+                                "ClassifyName": "演出",
+                                "objectId": "5c80Aqq2"
+                                },
+                                {
+                                "ClassifyName": "安保",
+                                "objectId": "kDIEGEET"
+                                },
+                                {
+                                "ClassifyName": "翻译",
+                                "objectId": "Evft2EEV"
+                                },
+                                {
+                                "ClassifyName": "临时工",
+                                "objectId": "KMthAGGY"
+                                },
+                                {
+                                "ClassifyName": "主持人",
+                                "objectId": "aCtWHAAn"
+                                },
+                                {
+                                "ClassifyName": "设计",
+                                "objectId": "obLeu00S"
+                                },
+                                {
+                                "ClassifyName": "文员",
+                                "objectId": "BNM1R556"
+                                },
+                                {
+                                "ClassifyName": "假期工",
+                                "objectId": "skTZrMMS"
+                                },
+                                {
+                                "ClassifyName": "校园大使",
+                                "objectId": "1EZPHggi"
+                                },
+                                {
+                                "ClassifyName": "其他",
+                                "objectId": "Bo225GGH"
+                                }
+                                ]
+                 }
+                 ],
+    "Area": [
+             {
+             "AreaName": "不限",
+             "objectId": "Cbqr444B",
+             "Street": []
+             },
+             {
+             "AreaName": "惠城区",
+             "objectId": "yAq6111J",
+             "Street": [
+                        {
+                        "StreetName": "不限",
+                        "objectId": "yAq6111J"
+                        },
+                        {
+                        "StreetName": "惠城区",
+                        "objectId": "ff6657d985"
+                        },
+                        {
+                        "StreetName": "河南岸片区",
+                        "objectId": "dbac8dd1ea"
+                        },
+                        {
+                        "StreetName": "麦地片区",
+                        "objectId": "41ebe15a72"
+                        },
+                        {
+                        "StreetName": "南坛下埔",
+                        "objectId": "598d29c103"
+                        },
+                        {
+                        "StreetName": "东平桥东",
+                        "objectId": "4ff736b578"
+                        },
+                        {
+                        "StreetName": "上排龙丰",
+                        "objectId": "9d5218a6df"
+                        },
+                        {
+                        "StreetName": "江北",
+                        "objectId": "ed37668b20"
+                        },
+                        {
+                        "StreetName": "汝湖",
+                        "objectId": "b33d7b937b"
+                        },
+                        {
+                        "StreetName": "小金",
+                        "objectId": "c139dc2029"
+                        },
+                        {
+                        "StreetName": "水口",
+                        "objectId": "01d75a7c29"
+                        },
+                        {
+                        "StreetName": "西湖下角",
+                        "objectId": "d5c0e50c28"
+                        },
+                        {
+                        "StreetName": "仲恺",
+                        "objectId": "42a5222fb8"
+                        },
+                        {
+                        "StreetName": "陈江",
+                        "objectId": "fa74eeabc8"
+                        },
+                        {
+                        "StreetName": "惠大",
+                        "objectId": "8dd9e0576a"
+                        }
+                        ]
+             },
+             {
+             "AreaName": "惠阳区",
+             "objectId": "VLQR111a",
+             "Street": [
+                        {
+                        "StreetName": "不限",
+                        "objectId": "VLQR111a"
+                        },
+                        {
+                        "StreetName": "惠阳区",
+                        "objectId": "f685c8d5ee"
+                        },
+                        {
+                        "StreetName": "新一城",
+                        "objectId": "c55ff0dae8"
+                        },
+                        {
+                        "StreetName": "中山路万顺路",
+                        "objectId": "7c6eafe15c"
+                        },
+                        {
+                        "StreetName": "万联广场",
+                        "objectId": "a901b45977"
+                        },
+                        {
+                        "StreetName": "天虹商场",
+                        "objectId": "4344e30bad"
+                        },
+                        {
+                        "StreetName": "土湖白云坑",
+                        "objectId": "1e9f75509c"
+                        },
+                        {
+                        "StreetName": "秋长一带",
+                        "objectId": "0afddc996a"
+                        },
+                        {
+                        "StreetName": "澳头大亚湾",
+                        "objectId": "3cb954c6fa"
+                        },
+                        {
+                        "StreetName": "开城大道南",
+                        "objectId": "58b36666f4"
+                        },
+                        {
+                        "StreetName": "人民四路",
+                        "objectId": "95f1172cd4"
+                        },
+                        {
+                        "StreetName": "立交桥",
+                        "objectId": "3603d3c1bd"
+                        },
+                        {
+                        "StreetName": "华都广场",
+                        "objectId": "1de06ece32"
+                        },
+                        {
+                        "StreetName": "开城大道北",
+                        "objectId": "af6771af59"
+                        }
+                        ]
+             },
+             {
+             "AreaName": "仲恺高新区",
+             "objectId": "SbIZ6339",
+             "Street": [
+                        {
+                        "StreetName": "不限",
+                        "objectId": "SbIZ6339"
+                        }
+                        ]
+             },
+             {
+             "AreaName": "博罗县",
+             "objectId": "Jdze444d",
+             "Street": [
+                        {
+                        "StreetName": "不限",
+                        "objectId": "Jdze444d"
+                        },
+                        {
+                        "StreetName": "博罗县",
+                        "objectId": "fffebb10a0"
+                        },
+                        {
+                        "StreetName": "罗阳县城",
+                        "objectId": "18cd925fb2"
+                        },
+                        {
+                        "StreetName": "义和龙溪",
+                        "objectId": "ba0fdb285a"
+                        },
+                        {
+                        "StreetName": "石湾园洲",
+                        "objectId": "8c5b2944de"
+                        },
+                        {
+                        "StreetName": "福田长宁",
+                        "objectId": "19339f69f5"
+                        }
+                        ]
+             },
+             {
+             "AreaName": "龙门县",
+             "objectId": "CgoY111U",
+             "Street": [
+                        {
+                        "StreetName": "不限",
+                        "objectId": "CgoY111U"
+                        },
+                        {
+                        "StreetName": "龙门县",
+                        "objectId": "98f84267f1"
+                        },
+                        {
+                        "StreetName": "龙城片区",
+                        "objectId": "f6f25589d2"
+                        },
+                        {
+                        "StreetName": "永汉一带",
+                        "objectId": "43e266321f"
+                        }
+                        ]
+             },
+             {
+             "AreaName": "惠东县",
+             "objectId": "9q6o333B",
+             "Street": [
+                        {
+                        "StreetName": "不限",
+                        "objectId": "9q6o333B"
+                        },
+                        {
+                        "StreetName": "惠东县",
+                        "objectId": "bc77f46156"
+                        },
+                        {
+                        "StreetName": "平山",
+                        "objectId": "07dca3a649"
+                        },
+                        {
+                        "StreetName": "平海港口",
+                        "objectId": "cd89fdd70e"
+                        },
+                        {
+                        "StreetName": "吉隆一带",
+                        "objectId": "96ada166f0"
+                        },
+                        {
+                        "StreetName": "巽寮",
+                        "objectId": "e8dae74a02"
+                        },
+                        {
+                        "StreetName": "大岭",
+                        "objectId": "32120c02c5"
+                        },
+                        {
+                        "StreetName": "华侨城",
+                        "objectId": "2266545a3e"
+                        },
+                        {
+                        "StreetName": "黄排",
+                        "objectId": "8922fcfb9b"
+                        },
+                        {
+                        "StreetName": "碧桂园十里银滩",
+                        "objectId": "85b8ef95e3"
+                        }
+                        ]
+             }
+             ],
+    "PriceUnit": [
+                  "元/小时",
+                  "元/天",
+                  "元/月",
+                  "面议"
+                  ],
+    "PayMethod": [
+                  "日结",
+                  "周结",
+                  "月结"
+                  ],
+    "IndustryType": [
+                     "人力资源",
+                     "金融",
+                     "信息技术",
+                     "涉外贸易",
+                     "酒店行业"
+                     ],
+    "Nature": [
+               "中外合资",
+               "国外全资",
+               "国内公司",
+               "港资企业",
+               "台资企业"
+               ],
+    "Scale": [
+              "1~10人",
+              "11~50人",
+              "51~200人",
+              "201~500人",
+              "500~800人",
+              "800人以上"
+              ],
+    "AttentionText": "注意事项：用户投简历后, 您需要在 3 小时内进行处理, 否则系统将会推送您的联系方式给用户。",
+    "PublicTipsText": "温馨提示：发布工作后, 短工邦将在1个工作日内进行审核。 认证通过企业可以直接通过审核发布工作！"
+}

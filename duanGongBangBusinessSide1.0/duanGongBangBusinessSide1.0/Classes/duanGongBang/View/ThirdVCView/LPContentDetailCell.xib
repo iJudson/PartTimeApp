@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="LPContentDetailCell" rowHeight="134" id="KGk-i7-Jjw" customClass="LPContentDetailCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="134"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="133.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="normalCellBG" translatesAutoresizingMaskIntoConstraints="NO" id="V9X-gv-e9f">
+                        <rect key="frame" x="-2" y="0.0" width="324" height="121.5"/>
+                        <animations/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="      怕最后奇偶上次就偶是顶层都是不读书吧吧我把       激素hi似乎是你从斗殴从报仇第四U币次代表此次成都市场调查调查" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S4J-8t-iXh">
+                        <rect key="frame" x="12" y="0.0" width="296" height="121.5"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_halfwritebottom_2x" translatesAutoresizingMaskIntoConstraints="NO" id="Lqa-cD-zfP">
+                        <rect key="frame" x="-2" y="121" width="324" height="12"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="b8l-cI-242"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="V9X-gv-e9f" secondAttribute="trailing" constant="-2" id="1ab-yt-iQv"/>
+                    <constraint firstAttribute="trailing" secondItem="Lqa-cD-zfP" secondAttribute="trailing" constant="-2" id="6ag-0j-09p"/>
+                    <constraint firstItem="S4J-8t-iXh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="B2p-Zg-eZb"/>
+                    <constraint firstAttribute="trailing" secondItem="S4J-8t-iXh" secondAttribute="trailing" constant="12" id="C7h-1n-dyA"/>
+                    <constraint firstItem="V9X-gv-e9f" firstAttribute="bottom" secondItem="S4J-8t-iXh" secondAttribute="bottom" id="Es4-25-6Sp"/>
+                    <constraint firstItem="S4J-8t-iXh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="MQr-Fb-dlO"/>
+                    <constraint firstItem="V9X-gv-e9f" firstAttribute="top" secondItem="S4J-8t-iXh" secondAttribute="top" id="Oji-8t-9JJ"/>
+                    <constraint firstAttribute="bottom" secondItem="Lqa-cD-zfP" secondAttribute="bottom" id="aXw-Xr-gcC"/>
+                    <constraint firstItem="Lqa-cD-zfP" firstAttribute="top" secondItem="S4J-8t-iXh" secondAttribute="bottom" id="fAX-GZ-xbP"/>
+                    <constraint firstItem="Lqa-cD-zfP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="-2" id="hxC-s4-7xU"/>
+                    <constraint firstItem="V9X-gv-e9f" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="-2" id="stZ-8T-Jxv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="220" y="290"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bg_halfwritebottom_2x" width="14" height="5"/>
+        <image name="normalCellBG" width="14" height="3"/>
+    </resources>
+</document>
